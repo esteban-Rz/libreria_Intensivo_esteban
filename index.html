@@ -13,39 +13,39 @@
     <link rel="stylesheet" href="/css/stile_letra.css">
     <title>gatanddestroy</title>
 </head>
-<body>
+<body class="pt-32">
         <!--link de nav-->
-        <nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default estilo_letra mi-nav">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://media.istockphoto.com/id/2114694333/es/vector/ilustraci%C3%B3n-de-dise%C3%B1o-vectorial-del-logotipo-de-la-librer%C3%ADa-concepto-abstracto-de-marca.jpg?s=612x612&w=0&k=20&c=e3L4xGsZ-ZXlmbiiwidQeMsTtIPvtJK71U6Dxs7_huY=" class="h-7" alt="Flowbite Logo" style="width: 100; height: 100px;"/>
-        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Catbooks</span>
-        </a>
-        <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <button type="button" class="text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Get started</button>
-        <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
-    </button>
-    </div>
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
-        <li>
-        <a href="/index.html" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Inicio</a>
-        </li>
-        <li>
-        <a href="/page/conocenos.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">conocenos</a>
-        </li>
-        <li>
-        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">iniciar sesion</a>
-        </li>
-        <li>
-        <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contactos</a>
-        </li>
-    </ul>
-    </div>
-    </div>
-    </nav>
+        <header class="sticky top-0 z-50 w-full">
+  <nav class="bg-neutral-primary">
+      <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+          <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src= "/img/istockphoto-2114694333-612x612.jpg"class="h-7" alt="Flowbite Logo" style="width: 100; height: 100px;" />
+              <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Catbooks</span>
+          </a>
+          <div class="flex items-center space-x-6 rtl:space-x-reverse">
+              
+          </div>
+      </div>
+  </nav>
+  <nav class="bg-neutral-secondary-soft border-y border-default border-default">
+      <div class="max-w-screen-xl px-4 py-3 mx-auto">
+          <div class="flex items-center">
+              <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
+                  <li>
+                      <a href="/page/conocenos.html" class="text-heading hover:underline" aria-current="page">historia</a>
+                  </li>
+                  <li>
+                      <a href="#ubicacion" class="text-heading hover:underline">ubicacion</a>
+                  </li>
+                  <li>
+                      <a href="/page/clubLibros.html" class="text-heading hover:underline">grupo de lectura</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+
     <!--carrucel-->
     
     <div id="default-carousel"   class="relative w-full mi-carrucel" data-carousel="slide" style="padding-top: 132px;">
@@ -98,36 +98,34 @@
 <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
     <svg class="w-7 h-7 mb-3 text-body" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 21v-9m3-4H7.5a2.5 2.5 0 1 1 0-5c1.5 0 2.875 1.25 3.875 2.5M14 21v-9m-9 0h14v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-8ZM4 8h16a1 1 0 0 1 1 1v3H3V9a1 1 0 0 1 1-1Zm12.155-5c-3 0-5.5 5-5.5 5h5.5a2.5 2.5 0 0 0 0-5Z"/></svg>
     <a href="#">
-        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading">Need a help in Claim?</h5>
+        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading"> quieres un descuento?</h5>
     </a>
-    <p class="mb-3 text-body">Go to this step by step guideline process on how to certify for your weekly benefits:</p>
-    <a href="#" class="inline-flex font-medium items-center text-fg-brand hover:underline">
-        See our guideline
+    <p class="mb-3 text-body"> contactanos y tendras un descuento del 50 % en tu primera compra :</p>
+    <a href="https://api.whatsapp.com/send/?phone=%2B593992625210&text&type=phone_number&app_absent=0" class="inline-flex font-medium items-center text-fg-brand hover:underline">
+        ingresa aqui
         <svg class="w-4 h-4 ms-2 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/></svg>
     </a>
 </div>
 </div>
- <div>
-    <!-- descarga -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</div>
-<div>
+<div class=" padding-top 100px" id="ubicacion">
+        <h1 class="text-xl font-bold text-center p-6" > UBICACION </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41809.69888387314!2d-78.56261297832032!3d-0.20677290000000262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a12350e9b9f%3A0xf91938e34079582!2sTres%20Gatos!5e1!3m2!1ses-419!2sec!4v1765659426058!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-</div>
+    </div>
+
 <!-- fothers -->
 <footer> 
     <div class="card">
   <div class="card-header">
-    Featured
+    contactanos 
   </div>
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title"> gatbooks@gamil.com</h5>
+    <p class="card-text"> si quieres hacer una reserva</p>
+    <a href="https://api.whatsapp.com/send/?phone=%2B593992625210&text&type=phone_number&app_absent=0" class="btn btn-primary"> reservas </a>
   </div>
 </div>
 </footer>
- <p> hola goldo </p>
+
 </body>
 </html>

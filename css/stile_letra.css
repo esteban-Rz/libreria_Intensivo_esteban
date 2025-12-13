@@ -1,0 +1,14 @@
+.estilo_letra{
+font-family: "Bebas Neue", sans-serif;
+font-size:xx-large;
+}
+.mi-nav{
+position: fixed;
+z-index: 1000;
+
+}
+.contenedor{
+    padding-top: 100px;
+    margin: 80px;
+    
+}

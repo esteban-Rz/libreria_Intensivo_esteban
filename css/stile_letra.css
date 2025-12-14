@@ -8,8 +8,12 @@ z-index: 1000;
 
 }
 .contenedor{
-    padding-top: 80px;
     margin: 80px;
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     
 }
 #historia {
